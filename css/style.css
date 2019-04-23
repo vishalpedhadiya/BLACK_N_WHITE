@@ -1,0 +1,363 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+  body header nav {
+    z-index: 1;
+    position: absolute !important;
+    background: transparent;
+    width: 100%;
+    position: fixed !important; }
+    body header nav ul li {
+      margin: 0px 4px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 700; }
+      body header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 2px; }
+  body header nav.sticky {
+    background: #282828;
+    z-index: 11; }
+  body header .slider-header {
+    top: 0;
+    position: relative;
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    background-position: center center;
+    height: 100vh;
+    width: 100%; }
+    body header .slider-header #myPageContent #home #textSlider.row {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100% !important;
+      margin: 0 auto; }
+      body header .slider-header #myPageContent #home #textSlider.row .slideCol {
+        text-align: left;
+        overflow: hidden;
+        font-weight: 900;
+        font-size: 40pt;
+        display: block;
+        white-space: nowrap;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase; }
+        body header .slider-header #myPageContent #home #textSlider.row .slideCol .scroller {
+          height: 70pt;
+          line-height: 70pt;
+          overflow: hidden; }
+          body header .slider-header #myPageContent #home #textSlider.row .slideCol .scroller .inner {
+            text-align: center;
+            animation: 10s normal infinite running scroll; }
+            body header .slider-header #myPageContent #home #textSlider.row .slideCol .scroller .inner p {
+              margin: 0px !important; }
+@keyframes scroll {
+  0% {
+    margin-top: 0px; }
+  15% {
+    margin-top: 0px; }
+  25% {
+    margin-top: -70pt; }
+  40% {
+    margin-top: -70pt; }
+  50% {
+    margin-top: -140pt; }
+  65% {
+    margin-top: -140pt; }
+  75% {
+    margin-top: -210pt; }
+  90% {
+    margin-top: -210pt; }
+  100% {
+    margin-top: 0px; } }
+        body header .slider-header #myPageContent #home #textSlider.row .slideCol .slider-btn {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px; }
+          body header .slider-header #myPageContent #home #textSlider.row .slideCol .slider-btn a {
+            font-size: 15px;
+            color: #fff;
+            text-decoration: none;
+            border: 1.5px solid #fff;
+            padding: 11px 52px;
+            margin: 0px 10px; }
+            body header .slider-header #myPageContent #home #textSlider.row .slideCol .slider-btn a:hover {
+              background-color: #fff;
+              color: #000; }
+  body .about-us-area .about-detail h2 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    color: #2e2e2e;
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 30px; }
+  body .about-us-area .about-detail p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 25px 30px 50px 0;
+    color: #919191; }
+  body .about-us-area .about-detail .counter {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px 0;
+    margin: 0 auto;
+    margin-bottom: 25px; }
+  body .about-us-area .about-img .about-img-main {
+    position: relative; }
+    body .about-us-area .about-img .about-img-main:after {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      content: '';
+      background: #000;
+      opacity: .6; }
+    body .about-us-area .about-img .about-img-main img {
+      width: 100%; }
+  body .product-features {
+    background-image: url(../img/service-bg.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%; }
+    body .product-features .section-heading h2 {
+      font-family: 'Cairo', sans-serif;
+      font-size: 30px;
+      text-transform: capitalize;
+      line-height: 27px;
+      color: #525252;
+      margin-bottom: 25px;
+      font-weight: 600; }
+    body .product-features .section-heading p {
+      margin-bottom: 50px;
+      padding: 0 30%;
+      font-weight: 400;
+      color: #646464; }
+    body .product-features .product-features-main .single-product-features {
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 12px -5px #717171;
+      align-items: center;
+      margin-bottom: 25px; }
+      body .product-features .product-features-main .single-product-features .single-product-detail {
+        padding-left: 20px; }
+        body .product-features .product-features-main .single-product-features .single-product-detail h5 {
+          font-family: 'Cairo', sans-serif;
+          margin-bottom: 10px;
+          color: #646464;
+          font-weight: 600;
+          text-transform: capitalize;
+          line-height: 16px; }
+        body .product-features .product-features-main .single-product-features .single-product-detail p {
+          font-size: 16px;
+          color: #4c4c4c;
+          line-height: 26px;
+          margin: 0;
+          font-weight: 400; }
+    body .product-features .product-features-main .product-img img {
+      width: 70%; }
+  body .services .service-main {
+    padding: 50px;
+    padding-bottom: 0; }
+    body .services .service-main .single-service {
+      border-right: 1px solid transparent;
+      border-image: url(../img/vl1.png) 30 round; }
+      body .services .service-main .single-service .service-icon i {
+        font-size: 35px;
+        margin-right: 15px;
+        color: #474747; }
+      body .services .service-main .single-service .service-detail h5 {
+        font-family: 'Cairo', sans-serif;
+        margin-bottom: 14px;
+        color: #646464;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 16px; }
+      body .services .service-main .single-service .service-detail p {
+        margin-bottom: 23px; }
+      body .services .service-main .single-service:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: url(../img/hl1.png) 0 0 no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+  body .client .client-says {
+    background-image: url(../img/service-bg.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%; }
+    body .client .client-says .section-heading h2 {
+      font-family: 'Cairo', sans-serif;
+      font-size: 36px;
+      text-transform: capitalize;
+      line-height: 38px;
+      color: #525252;
+      margin-bottom: 25px;
+      font-weight: 600; }
+    body .client .client-says .section-heading p {
+      margin-bottom: 50px;
+      font-weight: 400;
+      color: #646464; }
+    body .client .client-says .section-heading a {
+      background: #414141;
+      padding: 12px 24px;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none; }
+  body .client .client-slider i {
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    font-size: 39px;
+    line-height: 1;
+    transform: rotate(135deg);
+    color: #eaeaea;
+    transition: .4s all; }
+  body .client .client-slider .client-testimonial {
+    padding: 50px 50px;
+    box-shadow: 0 0 12px -5px #717171;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px; }
+    body .client .client-slider .client-testimonial .client-review {
+      margin-bottom: 35px; }
+    body .client .client-slider .client-testimonial .client-detail {
+      position: relative; }
+      body .client .client-slider .client-testimonial .client-detail .client-personal-detail h5 {
+        font-weight: 800; }
+      body .client .client-slider .client-testimonial .client-detail .client-img {
+        position: absolute;
+        right: 0;
+        top: -17px; }
+  body .client-section .section-heading h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 27px;
+    color: #525252;
+    margin-bottom: 25px;
+    font-weight: 600; }
+  body .client-section .section-heading p {
+    margin-bottom: 50px;
+    padding: 0 30%;
+    font-weight: 400;
+    color: #646464; }
+  body .client-section .client-section-img .client-img img {
+    width: 80%; }
+  body footer {
+    background-color: #282828;
+    color: #fff; }
+    body footer .main-footer .footer-detail .footer-detail-head h6 {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: 30px; }
+    body footer .main-footer .footer-detail .footer-detail-about p {
+      margin-bottom: 30px; }
+    body footer .main-footer .footer-detail .footer-detail-about ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      body footer .main-footer .footer-detail .footer-detail-about ul li {
+        border-bottom: 0.05px solid #414141;
+        margin: 10px 0px;
+        color: #999999;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        font-weight: 500; }
+        body footer .main-footer .footer-detail .footer-detail-about ul li .company-detail i {
+          margin-right: 10px;
+          font-size: 20px; }
+        body footer .main-footer .footer-detail .footer-detail-about ul li .company-detail p {
+          margin: 0;
+          padding-bottom: 10px;
+          font-size: 12px; }
+    body footer .main-footer .footer-detail .footer-detail-link ul {
+      list-style: circle;
+      margin: 0;
+      padding: 0;
+      margin-left: 10px;
+      color: #999999; }
+      body footer .main-footer .footer-detail .footer-detail-link ul li {
+        font-size: 12px;
+        text-transform: uppercase; }
+        body footer .main-footer .footer-detail .footer-detail-link ul li a {
+          text-decoration: none;
+          color: #999999;
+          font-size: 12px;
+          line-height: 36px;
+          display: inline-block;
+          width: 100%;
+          letter-spacing: 2px;
+          line-height: 36px; }
+    body footer .main-footer .footer-detail .footer-detail-news p {
+      font-size: 14px; }
+    body footer .main-footer .footer-detail .footer-detail-news .subscribe {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 20px;
+      margin-top: 10px;
+      display: inline-block;
+      width: 100%; }
+      body footer .main-footer .footer-detail .footer-detail-news .subscribe input {
+        width: 100%;
+        border: none;
+        height: 40px;
+        font-size: 12px;
+        padding: 0 10px;
+        margin-bottom: 5px; }
+      body footer .main-footer .footer-detail .footer-detail-news .subscribe button {
+        background: #965452;
+        border: none;
+        float: right;
+        margin-top: -45px;
+        height: 40px;
+        color: #fff;
+        padding: 0 20px;
+        line-height: 40px;
+        z-index: 9;
+        position: relative; }
+    body footer .main-footer .footer-detail .footer-detail-news ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      margin: 15px auto; }
+      body footer .main-footer .footer-detail .footer-detail-news ul li {
+        height: 30px;
+        width: 30px;
+        background-color: aliceblue;
+        border-radius: 50px;
+        color: #000;
+        margin-right: 10px; }
+        body footer .main-footer .footer-detail .footer-detail-news ul li a {
+          text-decoration: none;
+          color: #282828; }
+          body footer .main-footer .footer-detail .footer-detail-news ul li a i {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            height: 100%;
+            flex-direction: column; }
+    body footer .copyright-footer {
+      background: #252525;
+      padding: 20px 0;
+      text-align: center; }
+      body footer .copyright-footer p {
+        margin: 0;
+        font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */
